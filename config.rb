@@ -1,3 +1,4 @@
+
 require 'kramdown'
 require 'extensions/sitemap.rb'
 require 'zurb-foundation'
@@ -19,8 +20,8 @@ activate :sprockets
 ## Site-wide settings
 ####
 
-set :full_name, "Ada Lovelace"
-set :city, "London, England"
+set :full_name, "Matt Buck"
+set :city, "Austin, Texas"
 set :resume, nil # Set to filename of resume PDF in source directory.
 set :google_analytics_tracking_id, "UA-111111111-11"
 
@@ -38,8 +39,8 @@ set :twitter_username, "ada"
 # This is your shortname for your profile URL: http://linkedin.com/in/adalovelace
 set :linkedin_profile_name, "adalovelace"
 set :dribbble_username, "adalovelace"
-set :github_username, "ada"
-set :gravatar_email_address, "me@adalovelace.com"
+set :github_username, "techpeace"
+set :gravatar_email_address, "techpeace@gmail.com"
 
 Time.zone = "America/Chicago"
 

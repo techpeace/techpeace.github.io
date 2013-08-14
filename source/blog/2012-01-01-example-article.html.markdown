@@ -1,5 +1,5 @@
 ---
-title: Lorem Ipsum
+title: Hey this site is easy to set up
 date: 2012-01-01
 tags: 
 - example

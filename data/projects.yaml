@@ -1,8 +1,8 @@
 - 
-  name: MakerSquare
+  name: MakerSquare is super awesome
   url: http://themakersquare.com
   screenshot: makersquare-screenshot.png
-  featured: true
+  featured: false
   description: |
                  MakerSquare is a full-time, ten week program that turns you into a web developer.
 - 
@@ -10,7 +10,7 @@
   url: http://railsgirlsatx.org
   source_link: http://github.com/railsgirlsatx/site
   screenshot: railsgirls-screenshot.png
-  featured: false
+  featured: true
   description: |
                  This is a very long description.
 
