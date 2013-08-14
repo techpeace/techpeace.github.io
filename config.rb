@@ -117,10 +117,6 @@ page "humans.txt", :layout => false
 #   @which_fake_page = "Rendering a fake page with a variable"
 # end
 
-['portfolio'].each do |proxied_page|
-  page proxied_page, :proxy => "#{proxied_page}.html"
-end
-
 ###
 # Helpers
 ###
@@ -142,8 +138,8 @@ helpers do
       <<-MARKUP
         <li>
           <a href='#{url}'>
-            <span class='hide-for-medium-down'><i class='icon-#{network_name.downcase.gsub(' ', '-')}'></i>
-            </span><span class='show-for-medium-down'>#{network_name}</span>
+            <span class='hide-for-small'><i class='icon-#{network_name.downcase.gsub(' ', '-')}'></i>
+            </span><span class='show-for-small'>#{network_name}</span>
           </a>
         </li>
       MARKUP
